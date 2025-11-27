@@ -10,7 +10,7 @@
 <style>
   header {background:  linear-gradient(135deg, #ffd1f2aa, #d4e9ffaa);color: white;padding: 17px;display: flex;justify-content: space-between;align-items: center;font-size: 10px}
   nav {background:#ffffff88;padding:10px;text-align:center; box-shadow: 0 4px 16px #ffb6eb55}
-  nav a {color:linear-gradient(90deg,#000000,#3533cd);text-decoration:none;margin:0 15px;font-weight:bold;font-size:22px}
+  nav a {color:#ff82c6;text-decoration:none;margin:0 15px;font-weight:bold;font-size:22px}
   nav a:hover {text-decoration:underline;background:linear-gradient(90deg,#fff7ad,#ffa9f9)}
   .manhinh {background: linear-gradient(135deg, #ffd1f2aa, #d4e9ffaa);width:100%; height:100vh}
   footer {background: linear-gradient(135deg, #ffd1f2aa, #d4e9ffaa);text-align:center}
