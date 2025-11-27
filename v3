@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GÓC NHÀ SỐ 8</title>
+
+  <!-----CSS----->
+<!---Này tui thêm màu gradient tuyến tính 90 độ--->
+<!---Cái height=100vh là 100 viewport height(100% độ cao khung hình)--->
+<style>
+  header {background:  linear-gradient(135deg, #ffd1f2aa, #d4e9ffaa);color: white;padding: 17px;display: flex;justify-content: space-between;align-items: center;font-size: 10px}
+  nav {background:#ffffff88;padding:10px;text-align:center; box-shadow: 0 4px 16px #ffb6eb55}
+  nav a {color:linear-gradient(90deg,#000000,#3533cd);text-decoration:none;margin:0 15px;font-weight:bold;font-size:22px}
+  nav a:hover {text-decoration:underline;background:linear-gradient(90deg,#fff7ad,#ffa9f9)}
+  .manhinh {background: linear-gradient(135deg, #ffd1f2aa, #d4e9ffaa);width:100%; height:100vh}
+  footer {background: linear-gradient(135deg, #ffd1f2aa, #d4e9ffaa);text-align:center}
+</style>
+</head>
+  <!---Phần hiển thị ra màn hình--->
+<body>
+  <!---Phần header--->
+<header>
+<h1><img src="gocnhaso8.png" width="35"> - Góc nhà số 8</h1>
+<div class="search-bar">
+    <input type="text" placeholder="Tìm kiếm...">
+    <button>🔍</button>
+  </div>
+</header>
+  <!---Phần navbar--->
+<nav>
+  <a href="#"> Trang chủ </a>
+  <a href="#"> Danh sách </a>
+  <a href="#"> Dòng thời gian </a>
+  <a href="https://www.youtube.com/@A8-K59THPT-LTK" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" width="100"> </a>
+  <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_(2020).svg" width="30"> </a>
+</nav>
+  <!---Phần nội dung--->
+<div class="manhinh"></div>
+  <!---Phần chân trang--->
+<footer>© 2025 – Website lớp 12A8 🌸</footer>
+</body>
+</html>
