@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  
+  <body>
+    <! Phần header >
+    <header> </header>
+    
+    <! Thanh navbar >
+    <nav> </nav>
+    
+    <! Phần nội dung >
+    <section id="danhsach">
+      
+        <! Học sinh stt:01 >
+      <div id="hocsinh">
+        <img src="https://picsum.photos/600/400">
+        <h1>Họ và tên:...</h1>
+        <p>Giới tính:... <br> Chức vụ:...</p>
+      </div>
+      
+        <! Học sinh stt:02 >
+      <div id="hocsinh">
+        <img src="https://picsum.photos/600/400">
+        <h1>Họ và tên:...</h1>
+        <p>Giới tính:... <br> Chức vụ:...</p>
+      </div>
+      
+        <! Học sinh stt:03 >
+      <div id="hocsinh">
+        <img src="https://picsum.photos/600/400">
+        <h1>Họ và tên:...</h1>
+        <p>Giới tính:... <br> Chức vụ:...</p>
+      </div>  
+      
+    </section>
+    
+  </body>
+</html>
