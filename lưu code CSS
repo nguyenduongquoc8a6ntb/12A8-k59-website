@@ -1,0 +1,68 @@
+body {
+  margin: 0; /* Xóa khoảng cách mặc định */
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #add8e6, #ffffe0);
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+  background: linear-gradient(90deg, #add8e6, #ffffe0);
+}
+
+nav {
+  width: 100%;
+  height: 7vh;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+#danhsach {
+  width: 100%;
+  display: grid; /* Tạo lưới */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));  /* Mỗi hộp tối đa 180px cứ vượt quá 180px sẽ tự động thêm cột */
+  gap: 20px; /* Khoảng cách giữa các hộp */
+  padding: 20px; /* Các phần tử bên trong cách viền hộp là 20px */
+  box-sizing: border-box; /* Hộp sẽ giữ giá trị cố định dù cho có bị padding hay border tác động */
+}
+
+#hocsinh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(180deg, #a2d2ff 0%, #efbbff 40%, #ffc8dd 70%, #ffffff 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#hocsinh:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid white;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin: 15px 0 5px 0;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+h1, p {
+  color: #5D3FD3;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
